@@ -21,7 +21,7 @@ root.geometry("600x400")
 root.configure(bg='black')
 name1 = tk.StringVar()
 
-photo = PhotoImage(file="musicback.jpg")
+photo = PhotoImage(file="images/musicback.jpg")
 l = tk.Label(root, image=photo)
 l.image = photo  # just keeping a reference
 l.grid()
